@@ -134,7 +134,6 @@
     <Content Include="img\bg-2.jpg" />
     <Content Include="img\bg-3.jpg" />
     <Content Include="img\favicon.png" />
-    <Content Include="img\logo.png" />
     <Content Include="img\map.jpg" />
     <Content Include="img\overlays\dots-big.png" />
     <Content Include="img\overlays\dots-medium.png" />
@@ -166,6 +165,7 @@
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="js\jquery.placeholder.min.js.map" />
+    <None Include="Properties\PublishProfiles\causerita.pubxml" />
     <None Include="scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="scripts\jquery-1.10.2.js" />
     <Content Include="scripts\jquery-1.10.2.min.js" />
@@ -190,12 +190,10 @@
     </Content>
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="scripts\jquery-1.10.2.min.map" />
-    <Content Include="Views\Home\Contato.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_MenuExterno.cshtml" />
     <Content Include="Views\Shared\_RodapeExterno.cshtml" />
