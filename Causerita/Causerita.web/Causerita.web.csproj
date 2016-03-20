@@ -155,6 +155,7 @@
     <Content Include="js\lj-hijack.js" />
     <Content Include="js\options.js" />
     <Content Include="js\respond.min.js" />
+    <Content Include="js\tweetie.js" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="scripts\bootstrap.js" />
@@ -196,6 +197,8 @@
     <Content Include="scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Home\Contato.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_MenuExterno.cshtml" />
+    <Content Include="Views\Shared\_RodapeExterno.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
