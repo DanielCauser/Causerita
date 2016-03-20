@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Site", "1 - Site", "{AA715E23-6137-430D-BC0A-8666BD6C094C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Repositorio", "3 - Repositorio", "{98A50A2F-835B-40CB-A813-1AA0EFEE62DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Dominio", "2 - Dominio", "{D590BCF1-5BBF-47B4-9779-A2ABDE1D2C7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Causerita.web", "Causerita.web\Causerita.web.csproj", "{6EFE1754-84F9-4ABB-BFDE-DEFB76ACA1ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositorio", "Repositorio\Repositorio.csproj", "{40292CF3-D2A8-4E2E-A5F6-7B249D553EB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EFE1754-84F9-4ABB-BFDE-DEFB76ACA1ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EFE1754-84F9-4ABB-BFDE-DEFB76ACA1ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EFE1754-84F9-4ABB-BFDE-DEFB76ACA1ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EFE1754-84F9-4ABB-BFDE-DEFB76ACA1ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40292CF3-D2A8-4E2E-A5F6-7B249D553EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40292CF3-D2A8-4E2E-A5F6-7B249D553EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40292CF3-D2A8-4E2E-A5F6-7B249D553EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40292CF3-D2A8-4E2E-A5F6-7B249D553EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6EFE1754-84F9-4ABB-BFDE-DEFB76ACA1ED} = {AA715E23-6137-430D-BC0A-8666BD6C094C}
+		{40292CF3-D2A8-4E2E-A5F6-7B249D553EB8} = {98A50A2F-835B-40CB-A813-1AA0EFEE62DD}
+	EndGlobalSection
+EndGlobal

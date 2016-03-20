@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Loja Causerita / Em Construção</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="Content/style.css">
+
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <!-- PRELOADER -->
+    <div class="lj-preloader"></div>
+    <!-- /PRELOADER -->
+    <!-- FULLPAGE -->
+    <div id="fullpage">
+
+        <!-- FIRST SECTION -->
+        <header id="bg" class="section">
+            <!-- HEADER OVERLAY -->
+            <div class="desk-overlay-header lj-overlay lj-opacity"></div>
+            <!-- /HEADER OVERLAY -->
+            <!-- MENU -->
+            <div class="lj-menu">
+
+                <div class="container">
+                    @Html.Partial("~/Views/Shared/_MenuExterno.cshtml")
+                </div>
+            </div>
+            <!-- /MENU -->
+
+            <!-- FIRST SLIDE Corpo -->
+            @RenderBody()
+            <!-- FIRST SLIDE Corpo -->
+
+            <!-- FOOTER -->
+            <div class="footer wow fadeInUp" data-wow-duration="2s" data-wow-delay="3s">
+
+                <div class="container">
+                    @Html.Partial("~/Views/Shared/_RodapeExterno.cshtml")
+                </div>
+
+            </div>
+
+        </header>
+
+
+
+        <!-- /FIRST SECTION -->
+        <!-- /FULLPAGE -->
+    </div>
+
+    <!-- BACKSTRETCH -->
+    <div class="backstretch-holder"></div>
+    <!-- /BACKSTRETCH -->
+    <!-- HEADER OVERLAY -->
+    <div class="mob-overlay lj-overlay lj-opacity"></div>
+    <!-- /HEADER OVERLAY -->
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <!-- Google maps js scripts -->
+    @*<script src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>*@
+    <!-- assets js -->
+    <script src="js/assets.js"></script>
+    <!-- jQuery Tweetie -->
+    <script src="js/tweetie.js"></script>
+    <!-- Hijack options -->
+    <script src="js/options.js"></script>
+    <!-- Hijack js scripts -->
+    <script src="js/lj-hijack.js"></script>
+</body>
+</html>
