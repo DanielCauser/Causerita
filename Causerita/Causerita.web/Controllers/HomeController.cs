@@ -13,15 +13,5 @@ namespace Causerita.web.Controllers
         {
             return View();
         }
-
-        public ActionResult About()
-        {
-            return View();
-        }
-
-        public ActionResult Contato()
-        {
-            return View();
-        }
     }
 }

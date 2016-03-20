@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Loja Causerita / Em Construção</title>
+    <title>Hijack - Responsive Coming Soon / Under Construction HTML Template</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.png">
@@ -27,36 +27,20 @@
 
         <!-- FIRST SECTION -->
         <header id="bg" class="section">
+
             <!-- HEADER OVERLAY -->
             <div class="desk-overlay-header lj-overlay lj-opacity"></div>
-            <!-- /HEADER OVERLAY -->
-            <!-- MENU -->
-            <div class="lj-menu">
 
-                <div class="container">
-                    @Html.Partial("~/Views/Shared/_MenuExterno.cshtml")
-                </div>
-            </div>
-            <!-- /MENU -->
 
-            <!-- FIRST SLIDE Corpo -->
+            @Html.Partial("~/Views/Shared/_MenuExterno.cshtml")
+
+
             @RenderBody()
-            <!-- FIRST SLIDE Corpo -->
 
-            <!-- FOOTER -->
-            <div class="footer wow fadeInUp" data-wow-duration="2s" data-wow-delay="3s">
 
-                <div class="container">
-                    @Html.Partial("~/Views/Shared/_RodapeExterno.cshtml")
-                </div>
-
-            </div>
-
+            @Html.Partial("~/Views/Shared/_RodapeExterno.cshtml")
         </header>
 
-
-
-        <!-- /FIRST SECTION -->
         <!-- /FULLPAGE -->
     </div>
 
@@ -69,11 +53,11 @@
     <!-- jQuery -->
     <script src="js/jquery-1.11.0.min.js"></script>
     <!-- Google maps js scripts -->
-    @*<script src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>*@
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
     <!-- assets js -->
     <script src="js/assets.js"></script>
     <!-- jQuery Tweetie -->
-    <script src="js/tweetie.js"></script>
+    <script src="twitter/tweetie.js"></script>
     <!-- Hijack options -->
     <script src="js/options.js"></script>
     <!-- Hijack js scripts -->
